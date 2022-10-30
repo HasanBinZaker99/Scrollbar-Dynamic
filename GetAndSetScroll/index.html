@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <!-- Basic inline styling -->
+    <style>
+        body {
+            text-align: center;
+        }
+  
+        h1 {
+            color: green;
+        }
+  
+        p {
+            font-size: 20px;
+            font-weight: bold;
+        }
+  
+        #scroll-element {
+            height: 18.75rem;
+            width: 18.75rem;
+            overflow: auto;
+            background-color: green;
+            margin: 0 auto;
+            color: white;
+        }
+  
+        #scroll-element p {
+            height: 25rem;
+            width: 25rem;
+        }
+  
+        .output {
+            margin-top: 2rem;
+        }
+  
+        button {
+            margin-top: 2rem;
+            cursor: pointer;
+        }
+    </style>
+</head>
+  
+<body>
+    <h1>GeeksforGeeks</h1>
+    <div id="scroll-element">
+        <p>
+            GeeksforGeeks is a computer 
+            science portal for geeks.
+        </p>
+    </div>
+    <button class="scroll-top-btn">Scroll Top</button>
+    <button class="scroll-left-btn">Scroll Left</button>
+    <div class="output"></div>
+  
+    <script type="text/javascript">
+        const scrollElement = document.querySelector("#scroll-element");
+        const scrollTopBtn = document.querySelector(".scroll-top-btn");
+        const scrollLeftBtn = document.querySelector(".scroll-left-btn");
+        const outputDiv = document.querySelector(".output");
+  
+        scrollTopBtn.addEventListener("click", function () {
+            scrollElement.scrollTop += 25;
+        });
+        scrollLeftBtn.addEventListener("click", function () {
+            scrollElement.scrollLeft += 25;
+        });
+        scrollElement.addEventListener("scroll", () => {
+            outputDiv.innerHTML = 
+            `scrollTop: ${Math.ceil(scrollElement.scrollTop)}
+            <br> scrollLeft: ${Math.ceil(scrollElement.scrollLeft)} `;
+        });
+    </script>
+</body>
+  
+</html>

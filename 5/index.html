@@ -1,0 +1,496 @@
+
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <title>Scroll Automatically</title>
+    <script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+  
+    <!-- jQuery code to show the working of this method -->
+	
+    <script>
+	/*
+        $(document).ready(function() {
+            $("button").click(function() {
+			const element = document.getElementById("demo");
+			console.log(element);
+			var rect = element.getBoundingClientRect();
+console.log(rect.top, rect.right, rect.bottom, rect.left)
+			//let y = element.scrollTop;
+			//console.log(y);
+                 //$(document).scrollTop($(document).height());
+				$(document).scrollTop(rect.top - 150);
+            });
+			
+        });
+		*/
+    </script>
+	
+	    <script>
+        $(document).ready(function() {
+  
+			const element = document.getElementById("demo");
+			console.log(element);
+			var rect = element.getBoundingClientRect();
+console.log(rect.top, rect.right, rect.bottom, rect.left)
+			//let y = element.scrollTop;
+			//console.log(y);
+                 //$(document).scrollTop($(document).height());
+				$(document).scrollTop(rect.top - 150);
+           
+			
+        });
+    </script>
+    <style>
+	html {
+  scroll-behavior: smooth;
+}
+        h1 {
+            color: green;
+        }
+    </style>
+</head>
+  
+<body>
+    <center>
+        <div  >
+            <!-- click on this button
+              and see the change -->
+            <button>Click Here!</button>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1 id="demo">uuuuuuu GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+            <h1>GeeksforGeeks</h1>
+        </div>
+    </center>
+</body>
+  
+</html>

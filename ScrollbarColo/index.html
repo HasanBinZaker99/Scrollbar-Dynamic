@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+	CSS | scrollbar-color
+</title>
+<style>
+	.scrollbar-colored {
+	scrollbar-color: green blue;
+
+	height: 150px;
+	width: 200px;
+	overflow-y: scroll;
+	background-color: lightgreen;
+	border-radius:100w;
+	}
+	
+
+	.scrollbar-inherit {
+	scrollbar-color: inherit;
+
+	height: 75px;
+	width: 100px;
+	overflow-y: scroll;
+	}
+</style>
+</head>
+<body>
+<h1 style="color: green">
+	GeeksforGeeks
+</h1>
+<b>
+	CSS | scrollbar-color
+</b>
+<p>
+	The container below has
+	a scrollable child element
+	that inherits the parent's
+	scrollbar color.
+</p>
+<div class="scrollbar-colored">
+	<div class="scrollbar-inherit">
+	This scrollbar color is inherited
+	from the parent.
+	</div>
+	GeeksforGeeks is a computer science
+	portal with a huge variety of well
+	written and explained computer science
+	and programming articles, quizzes and
+	interview questions. The portal also
+	has dedicated GATE preparation and
+	competitive programming sections.
+</div>
+</body>
+</html>
